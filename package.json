@@ -11,13 +11,13 @@
     "@oclif/command": "^1.5.20",
     "@oclif/config": "^1.15.1",
     "@oclif/plugin-help": "^2.2.3",
-    "@types/puppeteer": "^2.0.1",
     "puppeteer": "^3.0.2",
     "tslib": "^1.11.1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.2",
     "@types/node": "^10.17.21",
+    "@types/puppeteer": "^2.0.1",
     "eslint": "^5.16.0",
     "eslint-config-oclif": "^3.1.0",
     "eslint-config-oclif-typescript": "^0.1.0",
