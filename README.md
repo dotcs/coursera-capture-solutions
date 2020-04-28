@@ -63,10 +63,10 @@ The part between `learn/` and `/home`, in this case `python-data-analysis`, is t
 Downloading the solutions is a simple call
 
 ```bash
-ccs --courseId sql-for-data-science
+ccs --courseId python-data-analysis
 
 # use the courseId flag multiple times for downloading solutions of multiple courses
-ccs --courseId sql-for-data-science --courseId python-data-analysis
+ccs --courseId python-data-analysis --courseId sql-for-data-science 
 ```
 
 The tool will determine all assignments automatically and download your solutions.
