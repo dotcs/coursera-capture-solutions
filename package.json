@@ -1,0 +1,52 @@
+{
+  "name": "coursera-capture-solutions",
+  "description": "Captures assignment and quiz solutions from Coursera assignments",
+  "version": "0.0.0",
+  "author": "dotcs @dotcs",
+  "bin": {
+    "ccs": "./bin/run"
+  },
+  "bugs": "https://github.com/dotcs/coursera-capture-solutions/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.20",
+    "@oclif/config": "^1.15.1",
+    "@oclif/plugin-help": "^2.2.3",
+    "@types/puppeteer": "^2.0.1",
+    "puppeteer": "^3.0.2",
+    "tslib": "^1.11.1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2",
+    "@types/node": "^10.17.21",
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0",
+    "eslint-config-oclif-typescript": "^0.1.0",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/dotcs/coursera-capture-solutions",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "ccs"
+  },
+  "repository": "dotcs/coursera-capture-solutions",
+  "scripts": {
+    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "posttest:fix": "eslint . --ext .ts --config .eslintrc --fix",
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  },
+  "types": "lib/index.d.ts"
+}
