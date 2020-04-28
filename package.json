@@ -1,7 +1,7 @@
 {
   "name": "coursera-capture-solutions",
-  "description": "Captures assignment and quiz solutions from Coursera assignments",
-  "version": "0.0.0",
+  "description": "Quick and dirty CLI tool to capture assignments solutions from Coursera courses",
+  "version": "1.0.0",
   "author": "dotcs @dotcs",
   "bin": {
     "ccs": "./bin/run"
